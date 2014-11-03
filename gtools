@@ -1,9 +1,6 @@
 #!/usr/bin/env php
 <?php
 
-//define('GERRIT_WEBSITE', (getenv("PLATFORM_CLI_ACCOUNTS_SITE") ?: "https://marketplace.commerceguys.com"));
-define('GERRIT_WEBSITE', "https://gerrit.happyculture.coop");
-
 // __DIR__ called in a class will point to the class directory. Saved now it
 // ensure there's always a path to the cli root.
 define('CLI_ROOT', __DIR__);
