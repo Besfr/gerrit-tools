@@ -5,7 +5,6 @@
  | | |_ |/ _ \ '__| '__| | __|    | |/ _ \ / _ \| / __|
  | |__| |  __/ |  | |  | | |_     | | (_) | (_) | \__ \
   \_____|\___|_|  |_|  |_|\__|    |_|\___/ \___/|_|___/
-
 ```
 
 Gerrit Tools is a CLI interface that allows you to interact with a Gerrit instance.
@@ -24,9 +23,9 @@ List the open changes you have access to.
 Display more informations about a change.
 
 **gtools change:pick ```<change_id>``` ```--method=<ssh|http>```**
-Optional : ```<change_id>``` The change ID you want to pick. 
+- Optional : ```<change_id>``` The change ID you want to pick. 
 If not present, it will let you choose a change that is open.
-Optional : ```--method=<ssh|http>``` the method you prefer to pick the change.
+- Optional : ```--method=<ssh|http>``` the method you prefer to pick the change.
 
 ## How to install
 Just run ```composer install```
